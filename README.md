@@ -2,7 +2,7 @@
 
 If your go-to crossfit gym is now addicted to giving 90 burpees every other day this python script will pick a better alternative for your training session.
 
-## Description
+## Description 
 
 The main automation events are:
 
