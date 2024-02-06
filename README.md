@@ -13,7 +13,7 @@ The main automation events are:
 - Finally it uploads it to your Dropbox account using your Dropbox API key.
 
 There are many other small pieces of logic and QoL tweaks but these are the most important stops of the script.
-The reason why I chose a screenshot of the page instead of randomly clicking on a specific workout and then printing it is that sometimes on the workouts page there might be up to 3 workouts so the script screenshots 3 instead of 1. This way I simply get more breathing room if I'm not feeling the single workout the script picks out for me.
+The reason why I chose a screenshot of the whole page instead of randomly clicking on a specific workout and then printing it is that sometimes on the page there might be up to 3 workouts so the screenshot can contain more than one workout. This way I simply get more breathing room if I'm not liking that singled out workout the script picked out for me.
 
 ## Tools I've used
 
