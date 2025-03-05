@@ -15,6 +15,39 @@ The main automation events are:
 There are many other small pieces of logic and QoL tweaks but these are the most important stops of the script.
 The reason why I chose a screenshot of the whole page instead of randomly clicking on a specific workout and then printing it is that sometimes on the page there might be up to 3 workouts so the screenshot can contain more than one workout. This way I simply get more breathing room if I'm not liking that singled out workout the script picked out for me.
 
+## How to Run it
+
+- Check if you have python installed on your system: 
+
+```
+python3 --version
+
+```
+
+- If you already have it grab the dependencies:
+
+```
+pip install selenium webdriver-manager dropbox
+
+```
+
+- Modify the following placeholders with your own credentials:
+
+    "crossfit_login_url_here"
+    "your_email_here"
+    "your_password_here"
+    "your_screenshot_path_here"
+    "YOUR_ACCESS_TOKEN"
+    
+- After that simply go to the directory of your script and run it:
+
+```
+
+python3 crossfit_scraper.py
+
+```
+
+
 ## Tools I've used
 
 Selenium, various Python libraries, Powershell.
