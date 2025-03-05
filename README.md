@@ -21,30 +21,26 @@ The reason why I chose a screenshot of the whole page instead of randomly clicki
 
 ```
 python3 --version
-
 ```
 
 - If you already have it grab the dependencies:
 
 ```
 pip install selenium webdriver-manager dropbox
-
 ```
 
 - Modify the following placeholders with your own credentials:
 
-    "crossfit_login_url_here"
-    "your_email_here"
-    "your_password_here"
-    "your_screenshot_path_here"
-    "YOUR_ACCESS_TOKEN"
-    
+    - "crossfit_login_url_here"
+    - "your_email_here"
+    - "your_password_here"
+    - "your_screenshot_path_here"
+    - "YOUR_ACCESS_TOKEN"
+
 - After that simply go to the directory of your script and run it:
 
 ```
-
 python3 crossfit_scraper.py
-
 ```
 
 
